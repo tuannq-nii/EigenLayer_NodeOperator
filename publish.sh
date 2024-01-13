@@ -7,7 +7,7 @@ OUT_DIR="EigenLayer_NodeOperator"
 bundle exec jekyll build -d $OUT_DIR
 
 # Copy DATA files to OUt_DIR
-# cp DATA/CNAME $OUT_DIR
+cp DATA/metadata.json $OUT_DIR/img/
 
 # Commit and push to github
 cd $OUT_DIR
